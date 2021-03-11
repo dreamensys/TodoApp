@@ -53,7 +53,7 @@ namespace ToDo.Application.Handlers
                 Title = result.Title,
                 CreatedAt = result.CreatedAt,
                 UpdatedAt = result.UpdatedAt
-            }).ToList();
+            }).OrderBy(o => o.CreatedAt).ToList();
             return results;
         }
     }
