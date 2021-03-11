@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ToDo.API</name>
+    </assembly>
+    <members>
+        <member name="M:ToDo.API.Controllers.TodoItemsController.GetAll">
+            <summary>
+            Returns all the tasks.
+            </summary>
+            <remarks>
+            Returns all the tasks.
+            </remarks>
+            <returns>A list of tasks.</returns>
+        </member>
+        <member name="M:ToDo.API.Controllers.TodoItemsController.Get(System.String)">
+            <summary>
+            Returns all the info of a task.
+            </summary>
+            <remarks>
+            Returns all the info of a task.
+            </remarks>
+            <param name="todoItemId">The unique identifier of the task.</param>
+            <returns>The task retrieved.</returns>
+        </member>
+        <member name="M:ToDo.API.Controllers.TodoItemsController.Post(ToDo.API.Models.NewTodoItem)">
+            <summary>
+            Creates a new task
+            </summary>
+            <remarks>
+            Creates a new task.
+            </remarks>
+            <param name="request">Payload with the properties to be updated in the todo item.</param>
+            <returns>The new task created.</returns>
+        </member>
+        <member name="M:ToDo.API.Controllers.TodoItemsController.Put(System.String,ToDo.API.Models.UpdateTodoitem)">
+            <summary>
+            Updates the todo item information.
+            </summary>
+            <remarks>
+            Updates the todo item information.
+            </remarks>
+            <param name="todoItemId">Unique identifier of the Todo Item.</param>
+            <param name="request">Payload with the properties to be updated in the todo item.</param>
+            <returns>No Content</returns>
+        </member>
+        <member name="M:ToDo.API.Controllers.TodoItemsController.Delete(System.String)">
+            <summary>
+            Delete a todo item.
+            </summary>
+            <remarks>
+            Delete a todo item.
+            </remarks>
+            <param name="todoItemId">Unique identifier of the Todo Item.</param>
+            <returns>No Content</returns>
+        </member>
+    </members>
+</doc>

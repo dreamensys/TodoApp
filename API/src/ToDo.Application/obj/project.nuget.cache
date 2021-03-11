@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hBSj9EeJCXO9+z0gkagWf+8X3F1Wm2Os5wSOdg8ZC3PRs880rXy1ExdpsypTlXMOMcTH4LccH6eCW8YQUaE3FA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\angel.soto\\Documents\\PersonalProjects\\angel-soto\\ToDo\\API\\src\\ToDo.Application\\ToDo.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\angel.soto\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0-preview.1.21102.12\\microsoft.extensions.dependencyinjection.abstractions.6.0.0-preview.1.21102.12.nupkg.sha512"
+  ],
+  "logs": []
+}
