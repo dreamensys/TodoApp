@@ -41,12 +41,7 @@ namespace ToDo.API.Controllers
         public ActionResult<IEnumerable<TodoItemDto>> GetAll()
         {
             var items = _todoItemsQueryHandler.Handle(new GetTodoItemsQuery());
-            var list = new List<TodoItemDto>()
-            {
-                new TodoItemDto() {Id = "jsjsj", Title = "sdfwewer"},
-                new TodoItemDto() {Id = "222", Title = "43534dsf"},
-            };
-            return Ok(list);
+            return Ok(items);
         }
 
         /// <summary>
